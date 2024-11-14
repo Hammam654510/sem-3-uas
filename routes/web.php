@@ -9,3 +9,7 @@ Route::get('/dashboard', function () {
 Route::get('/coba', function () {
     return view('index');
 });
+
+Route::get('/coba2yabro', function () {
+    return view('index');
+});
