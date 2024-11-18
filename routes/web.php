@@ -10,6 +10,6 @@ Route::get('/coba', function () {
     return view('index');
 });
 
-Route::get('/coba2yabro', function () {
-    return view('index');
+Route::get('/coba2', function () {
+    return view('layout.main');
 });

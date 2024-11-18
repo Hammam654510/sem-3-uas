@@ -53,8 +53,12 @@
       </div>
    </div>
    <div class="wrapper">
+      <!-- Navbar-->
+     @include('layout.navbar')
      
-     
+      <!-- Side-Nav-->
+    @include('layout.sidebar')
+
       <!-- Sidebar chat start -->
       <div id="sidebar" class="p-fixed header-users showChat">
          <div class="had-container">
